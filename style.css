@@ -1,0 +1,100 @@
+/* Define que o conteúdo do HTML sempre terá barra de rolagem vertical */
+html {
+    overflow-y: scroll;
+}
+
+/* Estiliza o corpo da página com cor de fundo, margens e fontes */
+body {
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 12pt;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 100px;
+    color: #262429;
+}
+
+/* Estiliza o título principal das seções */
+h1 {
+    text-align: center;
+    padding: 30px;
+    color: #262429;
+}
+
+/* Estiliza o menu de navegação */
+.menu {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    background-color: #fff;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    height: 35px;
+    align-items: center;
+}
+
+/* Estiliza os links do menu de navegação */
+.menu li a {
+    color: #2a2a2a;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+/* Adiciona estilo ao link quando o mouse passa sobre ele */
+.menu li a:hover {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* Estiliza a seção que contém o conteúdo principal */
+.container {
+    display: block;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estiliza os parágrafos dentro da container para alinhamento justificado */
+.container p {
+    text-align: justify;
+}
+
+/* Adiciona margem superior para os parágrafos dentro da classe portfolio */
+.portfolio p {
+    margin-top: 50px;
+}
+
+/* Limita a largura máxima das imagens dentro da classe img */
+.img img {
+    max-width: 50%;
+}
+
+/* Estiliza o container de imagens com flexbox */
+.img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Estiliza os inputs e textareas dentro do formulário */
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px;
+}
+
+/* Adiciona margem à esquerda nos inputs e textareas */
+.input input, textarea {
+    margin-left: 5px;
+}
+
+/* Define a cor do texto em parágrafos */
+p {
+    color: #262429;
+}
